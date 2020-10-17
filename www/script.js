@@ -49,9 +49,9 @@ var altLhighScore = 0;
 
 lMarkOld = storage.getItem("lHighScore");
 
-var coinSound = new Audio("coin.mp3");
+var coinSound = new Audio("www/coin.mp3");
 
-var failSound = new Audio("fail.mp3");
+var failSound = new Audio("www/fail.mp3");
 // failSound.play();
 if(lMarkOld == null){
     document.getElementById("yourHighScore").innerHTML = "";
