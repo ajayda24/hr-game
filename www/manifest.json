@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Hurdling Rodger",
+  "short_name": "Hurdling Rodger",
+  "version": "io.cordova.hellocordova",
+  "description": "Hurdling Rodger by Ajay Daniel Trevor",
+  "author": "Ajay Daniel Trevor",
+  "icons": [],
+  "start_url": "index.html"
+}

@@ -1,0 +1,320 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* background-color: #2a373b; */
+    color:#2a373b;
+}
+#game{
+    display: none;
+    width: 1000000000000000000000000000000000000000%;
+    height: 260px;
+    background-color: rgb(177, 222, 233);
+    border-bottom-style: solid;
+    
+}
+
+#gameLose{
+    display: none;
+}
+#loseImage{
+    height: 100px;
+    width: auto;
+}
+#scoreDisplay{
+    position: absolute;
+    top: 10px;
+    right: 125px;
+    font-size: 1rem;
+    color: black;
+    
+}
+#lastScoreDisplay{
+    position: absolute;
+    top: 10px;
+    right: 125px;
+    font-size: 1rem;
+    
+}
+#down{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(25, 32, 32);
+    
+}
+#landscape{
+    display: none;
+}
+
+#land-image{
+    height: 100px;
+    width: auto;
+}
+
+#blank{
+    width: 1000000000000000000000000000000000000000%;
+    height: 400px;
+    position: absolute;
+    top: 30px;
+    background-image: url("www/grass.jpg");
+    background-repeat:  repeat-x;
+    background-position: 0px 0px;
+    animation: grass 35s infinite linear;
+    z-index: -1;
+}
+
+
+#coin{
+    animation-delay: 1s;
+}
+
+#coin2{
+    animation-delay: 2s;
+}
+
+#coin3{
+    animation-delay: 4s;
+}
+.coinbox{
+    animation-delay: 5s;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: -10px;
+    left: -300px;
+    animation: coinbox 25s infinite linear;
+}
+.giftbox{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 15px;
+    left: -300px;
+    animation: giftbox 29s infinite linear;
+}
+.magnet{
+    display: none;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+}
+
+.coin{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -60px;
+    left:-300px;
+    animation: coin 6s infinite linear;
+    
+}
+.coin-hide{
+    animation: coin-hide 5000ms;
+}
+.coinspeed{
+    animation: coin-speed 2s infinite linear;
+}
+
+#character{
+    width: 225px;
+    height: 250px;
+    position: relative;
+    top: 50px;
+    left:-100px;
+    
+}
+
+#block-one{
+    width: 50px;
+    height: 45px;
+    position: relative;
+    top: 110px;
+    left: 10000px;
+    animation: block-one infinite linear;
+    animation-duration: 2.6s;
+}
+
+#block-three{
+    width: 50px;
+    height: 45px;
+    position: relative;
+    top: 110px;
+    left: 10000px;
+    animation: block-three infinite linear;
+    animation-duration: 2.6s;
+    animation-delay: 1.3s;
+    
+}
+
+
+
+.character-animation{
+    animation: character 500ms;
+}
+
+.animation-pause{
+    animation-play-state: paused;
+}
+
+@keyframes character{
+    0%{top:50px;}
+    50%{top:-45px;}
+    100%{top:50px;}
+}
+
+@keyframes block-one{
+    0%{left:1000px;}
+    100%{left:-400px;}
+}
+
+
+@keyframes block-three{
+    0%{left:1000px;}
+    100%{left:-500px;}
+}
+
+@keyframes coin{
+    0%{left:1000px;}
+    100%{left:-300px;}
+}
+
+@keyframes coinbox{
+    0%{left:4000px;}
+    100%{left:-300px;}
+}
+
+@keyframes giftbox{
+    0%{left:7500px;}
+    100%{left:-300px;}
+}
+
+@keyframes coin-hide{
+    0%{top:-60px;}
+    10%{top:-61px;}
+    20%{top:-62px;}
+    30%{top:-63px;}
+    40%{top:-65px;}
+    50%{top:-66px;}
+    60%{top:-67px;}
+    70%{top:-68px;}
+    80%{top:-69px;}
+    90%{top:-70px;}
+    100%{top:-71px;}
+}
+
+@keyframes coin-speed{
+    0%{left:1500px;}
+    100%{left:-300px;}
+}
+
+@keyframes grass{
+    0%{left:0px;}
+    100%{left:-5700px;}
+}
+
+/* ---------------------- */
+#start-button{
+    border-radius: 20px;
+    margin-top: 2%;
+    /* margin-left: -2%; */
+    width: 200px;
+}
+#result-button{
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: -60px;
+    width: 200px;
+}
+#retry-button{
+    border-radius: 20px;
+    margin-top: 2%;
+    width: 130px;
+}
+#game-rules-id{
+    display: none;
+}
+#instructions-button{
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 70px;
+    width: 100px;
+}
+#submit-mark{
+    border-radius: 20px;
+    margin-top: 2%;
+    width: 110px;
+}
+.dark-mode {
+    background-color: #2a373b;
+    color: aliceblue;
+}
+.light-mode {
+    background-color: rgb(255, 255, 255);
+    color: #2a373b;
+}
+#g-volume{
+    border-radius: 320px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(62, 122, 211);
+}
+#theme-button{
+    border-radius: 320px;
+    background-color: rgb(72, 128, 211);
+    color: rgb(32, 27, 27);
+    width: 100px;
+    height: 100px;
+}
+
+#home-button{
+    margin-left: 10px;
+}
+#scoreForm{
+    display: none;
+}
+#deviceIDForm{
+    display: none;
+}
+table{
+    width: 200px;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid rgb(160, 163, 160);
+    text-align: center;
+}
+  /* --------------- */
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .top {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .middle{
+      border-radius: 0;
+      margin-bottom: -1px;
+      
+  }
+
+  /* ------------------------------------ */
+
+

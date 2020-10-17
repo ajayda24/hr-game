@@ -1,0 +1,23 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajayda24/jumpAgain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajayda24/jumpAgain/issues"
+  },
+  "homepage": "https://github.com/ajayda24/jumpAgain#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
